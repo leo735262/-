@@ -1,0 +1,8 @@
+#!/bin/bash
+cd $1 
+for f in *
+do
+  fsize=`wc -w $f`
+  fsize=${fsize/ $f/}
+    echo "f $fsize" >> filesize.txt
+done

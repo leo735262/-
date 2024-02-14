@@ -1,0 +1,11 @@
+1."is a"關係的概念為"繼承(inheritance)"，為class level
+
+2.並不是單純有使用到作為參數就算"part of"關係，
+應該是在定義class階段時，若A class中也有定義 B class，則B才算 "part of" A
+
+3.Dependency關係(虛線箭頭)：一個class A使用到另一個class B，僅僅是"使用到"，class B本身不屬於class A
+例如：class B作為class A的參數、class B作為class A方法的局部變量、class A調用class B的靜態方法
+
+4.Association關係(實線箭頭)：一般是長期性的、擁有性的關係，
+被關聯class B以類class的屬性形式出現在關聯A中(init or construtor中綁定關係)
+

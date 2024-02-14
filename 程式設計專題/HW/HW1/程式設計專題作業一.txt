@@ -1,0 +1,19 @@
+請設計一個Server-Client 架構的剪刀、石頭、布遊戲:
+
+1. 建立Server Socket並開啟Client Socket連結，隨機產生剪刀、石頭、布任一種結果，並將結果列印出來。
+
+2. 建立Client Socket連接至Server Socket後，由鍵盤輸入剪刀、石頭、布任一種結果後，傳送給Server Socket判斷：
+
+若Server贏了，Server Socket傳送”Server win”之訊息給Client Socket，並產生新的剪刀、石頭、布任一種結果，同時請Client Socket重新比賽。
+
+若Client贏了，Server Socket傳送”You win”之訊息給Client Socket，並產生新的剪刀、石頭、布任一種結果，同時請ClientSocket重新比賽。
+
+若Server或Client任何一方先獲得總計3次勝利者，Server Socket傳送Server或Client(Server win or You win)勝利訊息與比賽結果(Server win: X times, You win: X times)給Client Socket並且結束遊戲。
+
+繳交截止時間:
+
+2023年5月4日晚上11:00
+
+繳交方式:
+
+將作業Java原始檔案上傳至i-learning作業一文件夾

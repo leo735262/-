@@ -1,0 +1,7 @@
+user,movie,seat_number,payment_info
+"{'username': 'leo1128', 'password': '1128'}","{'title': '旺卡', 'director': 'Paul King', 'release_date': '2023-12-8', 'duration': '120'}",50,"{'card_number': '1111111111111111', 'expiration_date': '08/22', 'cvv': '222'}"
+"{'username': 'ggyy1128', 'password': '1128'}","{'title': '黑暗騎士', 'director': '克里斯托弗·諾蘭', 'release_date': '2008-07-14'}",10,"{'card_number': '5555555555555555', 'expiration_date': '12/12', 'cvv': '025'}"
+"{'username': 'leo1128', 'password': '1128'}","{'title': '花樣年華', 'director': '王家衛', 'release_date': '2000-09-29'}",20,"{'card_number': '1111111111111111', 'expiration_date': '12/05', 'cvv': '222'}"
+"{'username': 'leo1128', 'password': '1128'}","{'title': '黑暗騎士', 'director': '克里斯托弗·諾蘭', 'release_date': '2008-07-14'}",56,"{'card_number': '1234567891234567', 'expiration_date': '11/05', 'cvv': '259'}"
+"{'username': 'leo1128', 'password': '1128'}","{'title': '哈比人：意外之旅', 'director': '彼得·傑克森', 'release_date': '2012-11-28'}",100,"{'card_number': '1234567891234567', 'expiration_date': '08/05', 'cvv': '456'}"
+"{'username': 'leo1128', 'password': '1128'}","{'title': '旺卡', 'director': '保羅 金', 'release_date': '2023-12-8'}",1,"{'card_number': '1', 'expiration_date': '1', 'cvv': '1'}"

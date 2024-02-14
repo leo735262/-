@@ -1,0 +1,15 @@
+修改課堂範例的Account類別. 
+保留原本所有功能(設定/取得帳戶姓名，存款，取得帳戶目前總額)之外，
+增加以下功能：
+	在Account類別中增加方法double[] getHistory(int N)。
+		此方法傳回最多N筆存款歷史紀錄。如果帳戶內只有K<N筆紀錄，就只傳回K筆。
+
+	在不改變deposit的方法傳入與傳出參數的限制下，修改deposit方法。
+		如果使用者存款時的金額小於等於0，就產生並throw IllegalArgumentException物件。
+		此Exception其錯誤訊息字串格式為："Illegal amount of deposit: <金額>". 
+		金額為使用者嘗試存款的金額，需印出到小數點以下第1位。
+		例如，如果存入-3.52元，錯誤訊息會是："Illegal amount of deposit: -3.5"
+
+作業上傳格式規定:
+	只須上傳你修改後的Account.java檔案，不需要上傳其他任何檔案。
+	將你的Account.java檔案壓縮到一個zip檔之後再上傳。

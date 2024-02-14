@@ -1,0 +1,9 @@
+Date: 2023/05/05	Item: dinner	Amount of consumption: 155$
+Date: 2023/05/05	Item: add oil	Amount of consumption: 140$
+Date: 2023/05/06	Item: shipping	Amount of consumption: 168$
+Date: 2023/05/06	Item: go highking and bus	Amount of consumption: 15$
+Date: 2023/05/06	Item: dinner(subway)	Amount of consumption: 140$
+Date: 2023/05/07	Item: sprite	Amount of consumption: 25$
+Date: 2023/05/07	Item: add oil	Amount of consumption: 148$
+Date: 2023/05/08	Item: wash car	Amount of consumption: 200$
+Date: 2023/05/09	Item: dinner	Amount of consumption: 120$
